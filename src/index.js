@@ -12,7 +12,7 @@ const client = new ApolloClient({
 */
 
 const client = new ApolloClient({
-  uri: 'https://server-catstronauts.herokuapp.com/', 
+  uri: 'http://odisea-server.herokuapp.com/', 
   cache: new InMemoryCache()
 });
 
